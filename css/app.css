@@ -1,0 +1,189 @@
+html{
+    box-sizing: border-box;
+    background-color: #eeeeee;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+/* globales */
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header y navegacion */
+.nombre-sitio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.nombre-sitio span{
+    color: #037bc0;
+}
+.nav-principal{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contenedor-navegacion{
+    border-top: 1px solid #e1e1e1;
+}
+.hero {
+    background-image: url(../img/001.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-principal a:hover {
+    padding: 10px;
+    transition: 1s;
+  }
+
+/*categorias*/
+
+.cuadrar {
+    padding-bottom: 50px;
+    transition: transform 0.5s;
+    box-shadow: 0 0 10px rgba(42, 42, 42, 0.5);
+    border-radius: 15px;
+}
+
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .titulo {
+    text-align: center;
+  }
+  
+  .cuadrar img {
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    height: 100%; /* Ajusta automáticamente la altura proporcionalmente */
+    border-radius: 10px 40px;
+  }
+
+  .cuadrar:hover {
+    transform: scale(1.05); /* Aplica un efecto de escala al pasar el ratón por encima */
+  }
+  
+
+.colonegro{
+    height: auto;
+    width: auto;
+}
+
+.Copyright{
+    color: #bb0000;
+}
+.display{
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+
+
+.carousel {
+    width: 100%;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    width: 100%; /* Ajusta según la cantidad de imágenes */
+    height: 100%;
+    transition: transform 0.5s ease; 
+  }
+  
+  .carousel-inner img {
+    flex-shrink: 0;
+    width: 100%; /* Ajusta según la cantidad de imágenes */
+    height: 100%;
+    object-position: center;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  } 
+
+
+
+
+  .carousel2 {
+    width: 100%;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+    position: relative;
+    border-radius: 5%;
+  }
+  
+  .carousel2-inner {
+    display: flex;
+    width: 100%; /* Ajusta según la cantidad de imágenes */
+    height: 100%;
+    transition: transform 0.5s ease; 
+  }
+  
+  .carousel2-inner img {
+    flex-shrink: 0;
+    width: 100%; /* Ajusta según la cantidad de imágenes */
+    height: 100%;
+    object-position: center;
+  }
+  
+  .prev-button2,
+  .next-button2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .prev-button2 {
+    left: 10px;
+  }
+  
+  .next-button2 {
+    right: 10px;
+  }
+  
+  .colonegro{
+    background-color: #c1c1c1;
+  }
+  
+  .Copyright{
+    text-align: center;
+    padding-top: 1rem;
+  }
